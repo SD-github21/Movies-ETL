@@ -1,7 +1,7 @@
 # Movies - Extract, Transform, Load (ETL)
 
 ## Overview of Movies-ETL
-The purpose of the Movies-ETL analysis was to implement a procedure to "extract" data from existing data files, "transform" the data through creating and implementing several functions, and "load" the data into a PostgresSQL database. Below are the steps of the data analysis procedure for this app:
+The purpose of the Movies-ETL analysis was to implement a procedure to "extract" data from existing data files, "transform" the data through creating and implementing several functions, and "load" the data into a PostgreSQL database. Below are the steps of the data analysis procedure for this app:
 
   - An ETL function was created to read in three data files, i.e., Kaggle metadata and MovieLensratings CSV files as well as Wikipedia JSON data. 
   - The Wikipedia data was transformed in numerous ways, i.e., filtering data, streamlining columns through renaming and organizing them, refine the data by minimizing the     
@@ -14,5 +14,5 @@ The purpose of the Movies-ETL analysis was to implement a procedure to "extract"
 
 ## Resources
 - Data Sources: movies_metadata.csv, ratings.csv, wikipedia_movies.json
-- Software: Python 3.7.10, Anaconda 1.7.2, Jupyter Notebook, Pandas, NumPy, SqlAlchemy, Psycopg2
+- Software: Python 3.7.10, Anaconda 1.7.2, Jupyter Notebook, Pandas, NumPy, SqlAlchemy, Psycopg2, PostgreSQL, pgAdmin4
 
